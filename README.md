@@ -20,7 +20,9 @@ kaggle-projects/
 
 ## 🚀 Projects
 
-### [Working with Files and Directories in Kaggle](./notebooks/file-management/)
+### [Working with Files and Directories in Kaggle](./notebooks/01-kaggle-file-management/)
+
+
 
 An in-depth exploration of file system management in Kaggle environments, demonstrating best practices for organizing, accessing, and manipulating files and directories for data science projects.
 
