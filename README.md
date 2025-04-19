@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-A collection of data science projects, analyses, and experiments conducted on the Kaggle platform by Dr. Saad Laouadi.
+A collection of data science projects, analyses, and experiments conducted on the Kaggle platform by **Dr. Saad Laouadi.**
 
 ## 📂 Repository Structure
 
@@ -30,7 +30,7 @@ An in-depth exploration of file system management in Kaggle environments, demons
 - Dataset organization techniques
 - Reproducible data loading patterns
 
-**[View on Kaggle →](https://www.kaggle.com/yourusername/working-with-directories-and-files-in-kaggle)**
+**[View on Kaggle →](https://www.kaggle.com/code/saadlaouadi/working-with-directories-and-files-in-kaggle)**
 
 ### Heart Failure Analysis
 
