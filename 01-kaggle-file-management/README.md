@@ -58,7 +58,7 @@ kaggle datasets download -f heart_failure_clinical_records_dataset.csv fedesoria
 
 ## Kaggle Link
 
-View this notebook on Kaggle: [Working with Directories and Files in Kaggle](https://www.kaggle.com/dr-saad-la/kaggle-projects/working-with-directories-and-files-in-kaggle)
+View this notebook on Kaggle: [Working with Directories and Files in Kaggle](https://www.kaggle.com/code/saadlaouadi/working-with-directories-and-files-in-kaggle)
 
 ## Dependencies
 
