@@ -32,17 +32,15 @@ An in-depth exploration of file system management in Kaggle environments, demons
 
 **[View on Kaggle →](https://www.kaggle.com/yourusername/working-with-directories-and-files-in-kaggle)**
 
-### [Future Project Name]
+### Heart Failure Analysis
 
 *Coming soon*
 
-## 📊 Dataset Access Instructions
+## 🔍 Kaggle API Setup
 
-### Heart Failure Synthetic Dataset
+To access datasets used in these projects locally, you'll need to set up the Kaggle API:
 
-To download the Heart Failure Synthetic Dataset used in these notebooks, you can use the Kaggle API:
-
-#### Prerequisites
+### Prerequisites
 1. Install the Kaggle API:
    ```bash
    pip install kaggle
@@ -51,24 +49,15 @@ To download the Heart Failure Synthetic Dataset used in these notebooks, you can
 2. Set up your Kaggle API credentials:
    - Go to your [Kaggle account settings](https://www.kaggle.com/account)
    - Scroll to the API section and click "Create New API Token"
-   - Save the downloaded `kaggle.json` file to `~/.kaggle/kaggle.json` (Linux/macOS) or `C:\Users\<Windows-username>\.kaggle\kaggle.json` (Windows)
-   - Set permissions: `chmod 600 ~/.kaggle/kaggle.json` (Linux/macOS only)
+   - Save the downloaded `kaggle.json` file to:
+     - Linux/macOS: `~/.kaggle/kaggle.json`
+     - Windows: `C:\Users\<Windows-username>\.kaggle\kaggle.json`
+   - Set proper permissions (Linux/macOS only):
+     ```bash
+     chmod 600 ~/.kaggle/kaggle.json
+     ```
 
-#### Download Commands
-
-Download the dataset using:
-```bash
-# List related datasets
-kaggle datasets list -s "heart failure"
-
-# Download the specific dataset
-kaggle datasets download fedesoriano/heart-failure-prediction
-
-# OR download just the specific file
-kaggle datasets download -f heart_failure_clinical_records_dataset.csv fedesoriano/heart-failure-prediction
-```
-
-For more information on using the Kaggle API, see [Kaggle's API documentation](https://github.com/Kaggle/kaggle-api).
+3. See each project's README for specific dataset download instructions.
 
 ## 🛠️ Setup and Usage
 
@@ -91,7 +80,7 @@ To use these notebooks locally:
    pip install -r requirements.txt
    ```
 
-4. Download datasets using the instructions above
+4. Download datasets using project-specific instructions
 
 5. Open the notebooks in Jupyter:
    ```bash
@@ -101,19 +90,21 @@ To use these notebooks locally:
 ## 📚 Resources
 
 - [Kaggle Documentation](https://www.kaggle.com/docs)
+- [Kaggle API GitHub Repository](https://github.com/Kaggle/kaggle-api)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [Effective Python for Data Science](https://www.effectivepython.com/)
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## 📧 Contact
 
 - Dr. Saad Laouadi
-- [LinkedIn](https://www.linkedin.com/in/yourusername/)
-- [Kaggle Profile](https://www.kaggle.com/yourusername)
+- [LinkedIn](https://www.linkedin.com/in/saad-laouadi/)
+- [Kaggle Profile](https://www.kaggle.com/saadlaouadi)
 
 ---
 
 ⭐ **If you find these projects useful, please consider giving this repository a star!** ⭐
+
